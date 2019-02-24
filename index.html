@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Beyonce Quiz App</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="bkgrnd_img">
+    <section id ="start-quiz">
+      <h1> Beyonce Quiz</h1>
+      <p> Do you have what it takes to be a member of Beyonce's Beyhive? </p>
+      <button type="button" class="js-start-button">Let's get started!</button>
+    </section>
+    <section role="main" id="container"></section>
+    <section class="scoring">
+      <ul>
+        <li>Question:<span class="js-question-number">0</span>/10</li>
+        <li>Score:<span class="js-user-score">0</span>/10</li>
+      </ul>
+    </section>
+  </div>
+	<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="store.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

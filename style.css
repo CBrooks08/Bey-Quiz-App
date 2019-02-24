@@ -1,0 +1,185 @@
+body * {
+  box-sizing: border-box;
+  color: white;
+}
+.bkgrnd_img{
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.imgur.com/focpGeG.jpg?2");
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+html, body {
+  height: 100%; 
+}
+/*start page style*/
+
+#start-quiz{
+  width: 100vw;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.start-media {
+  max-width: 425px;
+  margin-bottom: 2rem;
+  box-shadow: 3px 3px white;;
+}
+
+h1 {
+  margin: 45px;
+  font-size: 55px;
+  font-style: italic;
+  font-family: "Lora";
+}
+
+h3 {
+    line-height: 1.7rem;
+}
+
+p {
+  padding: 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+#container {
+  max-width: 70%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 2rem;
+  height: 100%;
+}
+
+.js-start-button{
+  width: 20%;
+  align-items: center;
+}
+
+#js-submit-button {
+  width: 75%;
+}
+
+.js-restart-button {
+  width: 55%;
+}
+
+button{
+  border: 3px solid whitesmoke;
+  border-radius: 20px;
+  padding: 1em;
+  color:white;
+  background-color: rgba(15, 8, 31, 0.05);
+  text-align: center;
+  font-size: 16px;
+  line-height: 17px;
+  width: 75%;
+  /* margin: 25px 0px; */
+}
+
+button:hover, button:active {
+  background-color: #f8b500;
+  color:#393e46;
+  transition: all 0.4s ease 0s;
+  border: 3px solid #f8b500;
+}
+
+form {
+  max-width: 325px;
+}
+
+fieldset {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border: 0;
+}
+
+input{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  position:fixed;
+  opacity:0;
+}
+
+input[type="radio"]:checked+label {
+  background-color: #fc3c3c;
+  border: 3px solid #fc3c3c;
+}
+
+label{
+  border: 3px solid whitesmoke;
+  padding: 20px;
+  border-radius: 20px;
+  width: 75%;
+  margin: 10px 0px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+label:hover, labe:active {
+  background-color:  #f8b500;
+  transition: all 0.4s ease 0s;
+  color:#393e46;
+  border: 3px solid #f8b500;
+  font-size: 16px;
+}
+
+section.correctFeedback,
+section.incorrectFeedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    max-width: 325px;
+}
+
+.media {
+	max-width: 225px;
+	margin-bottom: 2rem;
+  box-shadow: 3px 3px white;
+}
+
+.results {
+  max-width: 325px;
+  width: 100vw;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  letter-spacing: 3px;
+  padding-right: 2rem;
+}
+
+.scoring {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #171013;
+}
+
+

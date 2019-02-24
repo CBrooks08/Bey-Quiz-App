@@ -26,12 +26,6 @@ html, body {
   text-align: center;
 }
 
-.start-media {
-  max-width: 425px;
-  margin-bottom: 2rem;
-  box-shadow: 3px 3px white;;
-}
-
 h1 {
   margin: 45px;
   font-size: 55px;
